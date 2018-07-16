@@ -17,7 +17,7 @@ public class AlumnoDao extends dao{
             ps.setString(3, ml.getApellido());
             ps.setString(4, ml.getNacAlum());
             ps.setString(5, ml.getEmail());
-            ps.setString(6, ml.getTeléfono());
+            ps.setString(6, ml.getTelefono());
             
             ps.executeUpdate();
         } catch (Exception e) {

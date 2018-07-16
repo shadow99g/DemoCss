@@ -22,7 +22,7 @@ import java.util.logging.Logger;
 @SessionScoped
 public class AlumnoController implements Serializable {
 
-    AlumnoModel ml;
+    AlumnoModel ml = new AlumnoModel();
 
     
     
@@ -36,7 +36,7 @@ public class AlumnoController implements Serializable {
             Logger.getLogger(AlumnoController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
+
     public AlumnoModel getMl() {
         return ml;
     }
@@ -44,4 +44,6 @@ public class AlumnoController implements Serializable {
     public void setMl(AlumnoModel ml) {
         this.ml = ml;
     }
+    
+
 }

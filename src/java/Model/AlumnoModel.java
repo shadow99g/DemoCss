@@ -11,7 +11,7 @@ package Model;
  */
 public class AlumnoModel {
     
-     public String Dni,nombre, apellido,NacAlum,Email,Teléfono;
+     private String Dni,nombre, apellido,NacAlum,Email,Telefono;
 
     public String getDni() {
         return Dni;
@@ -53,12 +53,14 @@ public class AlumnoModel {
         this.Email = Email;
     }
 
-    public String getTeléfono() {
-        return Teléfono;
+    public String getTelefono() {
+        return Telefono;
     }
 
-    public void setTeléfono(String Teléfono) {
-        this.Teléfono = Teléfono;
+    public void setTelefono(String Telefono) {
+        this.Telefono = Telefono;
     }
+
+
     
 }
